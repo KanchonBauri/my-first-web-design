@@ -1,0 +1,77 @@
+/* univarsel tag */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* this is navbar section */
+.menu-container {
+    background-color: rgb(94, 92, 92);
+    color: white;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo-photo {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+}
+
+.item {
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: red;
+}
+
+
+/* this is banner section */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    border: 2px solid red;
+    align-items: center;
+    color: white;
+    background-image: url(/img/background.png), linear-gradient(45deg, rgb(8, 8, 8), #000);
+}
+
+.heading {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: rgb(74, 74, 179);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color:red ;
+}
+
+.banner-photo {}
+
+.img {
+    width: 300px;
+}
