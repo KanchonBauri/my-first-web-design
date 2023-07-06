@@ -41,7 +41,7 @@
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     color: white;
     background-image: url(/img/background.png), linear-gradient(45deg, rgb(8, 8, 8), #000);
@@ -66,8 +66,8 @@
     border-radius: 5px;
 }
 
-.btn:hover{
-    background-color:red ;
+.btn:hover {
+    background-color: red;
 }
 
 .banner-photo {}
@@ -75,3 +75,35 @@
 .img {
     width: 300px;
 }
+
+/* about section */
+
+.about {
+    color: white;
+    font-size: 53px;
+    text-align: center;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    background-color: rgb(85, 83, 83);
+}
+
+.about-continer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(85, 83, 83);
+    height: 80vh;
+
+}
+
+.about-heading{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about-paragraph{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
